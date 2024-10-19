@@ -1,5 +1,9 @@
+import Debug "mo:base/Debug";
 actor {
-  public query func greet(name : Text) : async Text {
-    return "Hello, " # name # "!";
-  };
+public func multiply(a:Int,b:Int): async Int{
+  return a*b;
+};
+public func sub(a:Int,b:Int): async Int{
+  return a-b;
+}
 };
